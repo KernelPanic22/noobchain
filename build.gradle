@@ -16,6 +16,10 @@ dependencies {
     // Lombok
     compileOnly 'org.projectlombok:lombok:1.18.22'
     annotationProcessor 'org.projectlombok:lombok:1.18.22'
+
+    //gson
+    implementation 'com.google.code.gson:gson:2.8.8'
+
 }
 
 test {
